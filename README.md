@@ -11,13 +11,14 @@ To set up and test the API, follow these steps:
    php artisan migrate
    php artisan db:seed
 
- 
-2.Start the Laravel development server:
-  php artisan serve
+2. Start the Laravel development server:
+   ```bash
+   php artisan serve
 
   
-3.Compile your assets:
-  npm run dev
+3. Compile your assets:
+   ```bash
+   npm run dev
 
 you can open :
   http://127.0.0.1:8000/
@@ -29,7 +30,7 @@ Technician response example :
 {
   "user": {
     "f_name": "محمد",
-    "l_name": "أحمج",
+    "l_name": "أحمد",
     "email": "abcdefg@gmail.com",
     "mobile": "+963 999 112233",
     "city": "Tartous",
