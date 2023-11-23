@@ -1,0 +1,40 @@
+
+### POST  /register
+POST http://localhost:8000/api/technician/register
+Accept: application/json
+Content-Type: application/json
+
+{
+   "f_name": "محمد",
+   "l_name": "صقور",
+   "email": "sakkour89@gmail.com",
+   "password": "123456",
+   "mobile": "+963 988 644406",
+   "city": "Tartous",
+   "personal_image": "images/techs/u_image_12",
+   "bank": "بنك بيمو",
+   "iban": "GB29 RBOS 6016 1331 9268 19",
+   "location": "سوريا",
+   "residency_image": "images/techs/u_image_13",
+   "skills": [
+       {"service_id": 1 , "service_name": "تركيب مغسلة عادي"},
+       {"service_id": 2 , "service_name": "تركيب مغسلة دولاب أو رخام"}
+   ]
+}
+
+
+### POST  /login
+POST  http://localhost:8000/api/technician/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "mobile": "+963 988 644406",
+    "password": "123456"
+}
+
+
+### POST  /logout
+POST http://localhost:8000/api/v1/logout
+Accept: application/json
+Authorization: Bearer 2|sHH6UWj0ET7Il6KsKAzqg6dBuqgXkQ71Uh23ZDnBacabbd8e
