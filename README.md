@@ -22,6 +22,7 @@ To set up and test the API, follow these steps:
 
 
 ## you can open :
+
      ```bash
      http://127.0.0.1:8000/
      and set the registered technician as 'approved'.
