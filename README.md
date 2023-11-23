@@ -16,11 +16,10 @@ Start the Laravel development server:
   php artisan serve
 
 Compile your assets:
-  ```bash
   npm run dev
 
 you can open :
-  ```bash
+
   http://127.0.0.1:8000/
 
  and set the registered technician as 'approved'.
