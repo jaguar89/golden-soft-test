@@ -12,15 +12,21 @@ To set up and test the API, follow these steps:
    php artisan db:seed
 
 Start the Laravel development server:
-php artisan serve
+  ```bash
+  php artisan serve
 
 Compile your assets:
-npm run dev
+  ```bash
+  npm run dev
 
-you can open : http://127.0.0.1:8000/ , and set the registered technician as 'approved'.
+you can open :
+  ```bash
+  http://127.0.0.1:8000/
+ and set the registered technician as 'approved'.
 
 you can use (apiRequests.http) in main directory to make api calls:
 
+```bash
 Register Technician:
 
 POST http://localhost:8000/api/technician/register
