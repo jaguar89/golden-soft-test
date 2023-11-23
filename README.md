@@ -21,16 +21,16 @@ To set up and test the API, follow these steps:
    npm run dev
 
 
-you can open :
+## you can open :
+     ```bash
+     http://127.0.0.1:8000/
+
+## and set the registered technician as 'approved'.
+
+## you can use (apiRequests.http) in main directory to make api calls:
+
   ```bash
-  http://127.0.0.1:8000/
-
-# and set the registered technician as 'approved'.
-
-# you can use (apiRequests.http) in main directory to make api calls:
-
-```bash
-Technician response example : 
+  Technician response example : 
     {
       "user": {
         "f_name": "محمد",
