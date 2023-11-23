@@ -11,11 +11,12 @@ To set up and test the API, follow these steps:
    php artisan migrate
    php artisan db:seed
 
-Start the Laravel development server:
+2.Start the Laravel development server:
   ```bash
   php artisan serve
 
-Compile your assets:
+3.Compile your assets:
+  ```bash
   npm run dev
 
 you can open :
