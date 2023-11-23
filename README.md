@@ -16,18 +16,14 @@ To set up and test the API, follow these steps:
   php artisan serve
 
 3.Compile your assets:
-  ```bash
   npm run dev
 
 you can open :
-
   http://127.0.0.1:8000/
-
  and set the registered technician as 'approved'.
 
 you can use (apiRequests.http) in main directory to make api calls:
-
-```bash
+ 
 Register Technician:
 
 POST http://localhost:8000/api/technician/register
